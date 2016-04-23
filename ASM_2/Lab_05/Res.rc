@@ -1,0 +1,45 @@
+#include "D:\masm32\include\resource.h"
+
+500 ICON "MyIcon.ICO"
+
+600 MENUEX 
+BEGIN
+    POPUP "&Файл"
+    BEGIN
+        MENUITEM "Відкрити 1.txt",		6000
+        MENUITEM "&Відкрити ...", 		6001
+        MENUITEM MF_SEPARATOR
+        MENUITEM "З&берегти", 			6002
+        MENUITEM "Зберегти &як ...", 	6003
+        MENUITEM MF_SEPARATOR
+        MENUITEM "Ви&хід", 				6004
+    END
+    POPUP "&Допомога"
+    BEGIN
+		MENUITEM "&Про нас ;) ", 	   		6200
+    END
+END
+
+700 DIALOGEX 0, 0, 300, 240
+STYLE WS_SYSMENU | WS_MINIMIZEBOX | DS_CENTER
+CAPTION "Робота з файлами"
+FONT 10, "MS Sans Serif"
+MENU 600
+BEGIN
+	LTEXT "Шлях до файлу",  6701,  10, 12,  80, 12, ES_READONLY
+	LTEXT "Вміст файлу",    6702,  10, 12,  80, 12
+	EDITTEXT 		    7001,  90, 10, 150, 12
+	EDITTEXT 		    7003,   0, 30, 300,210,  WS_VSCROLL + WS_HSCROLL + ES_AUTOVSCROLL +ES_AUTOHSCROLL + ES_LEFT + ES_MULTILINE + ES_WANTRETURN
+END
+
+701 DIALOGEX  100, 200, 250, 80
+STYLE   WS_SYSMENU | WS_MINIMIZEBOX | DS_CENTER
+CAPTION "About"
+FONT    10, "MS Sans Serif"
+BEGIN
+	LTEXT 		"Автор: Олег Марко", 106, 45, 15, 100, 12 
+	LTEXT 		"Програма Version 1.0", 107, 45, 25, 100, 24
+	LTEXT 		"Copyright(c) 2015", 108, 45, 50, 100, 12
+	PUSHBUTTON 	"Ok", 305, 165, 25,  80, 12
+	CONTROL	"Фотографія", 800, STATIC, SS_BITMAP | WS_CHILD | WS_VISIBLE | WS_THICKFRAME, 5, 5, 25, 25
+END

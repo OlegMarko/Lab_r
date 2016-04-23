@@ -1,0 +1,19 @@
+#include "D:\masm32\include\resource.h"
+
+500 ICON "MyIcon.ICO"
+
+600 MENUEX
+	BEGIN
+	POPUP "&Файл"
+		BEGIN
+		MENUITEM "???", 		6001
+		MENUITEM MF_SEPARATOR
+		MENUITEM "Ви&хід", 	6002
+		END
+	MENUITEM "Створити &дочірне вікно",			6003
+	POPUP "& Допомога"
+		BEGIN
+		MENUITEM "про &програму",		6004
+		MENUITEM "про &автора",  		6005
+		END
+	END

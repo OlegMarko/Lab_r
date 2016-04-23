@@ -1,0 +1,25 @@
+#include "D:\masm32\include\resource.h"
+
+500 ICON "MyIcon.ICO"
+
+700 DIALOGEX  0 , 0, 450, 300
+STYLE   WS_SYSMENU | WS_MINIMIZEBOX | WS_MAXIMIZEBOX | DS_CENTER
+CAPTION "Графічні примітиви"
+FONT    8, "MS Sans Serif"
+BEGIN
+	DEFPUSHBUTTON  	"Прямокутник",	301, 15 , 250, 75, 15
+	PUSHBUTTON     	"Еліпс",		302, 125 , 250, 75, 15
+    PUSHBUTTON 		"Вихід",		300, 315 , 250, 75, 15
+    	
+	GROUPBOX		"Колір межі",	400, 15 , 45, 125, 85
+	AUTORADIOBUTTON	"Чорний",		401, 25 , 60, 85, 17, WS_TABSTOP | WS_GROUP
+	AUTORADIOBUTTON	"Червоний",		402, 25 , 75, 85, 17, WS_TABSTOP
+	AUTORADIOBUTTON	"Зелений",		403, 25 , 90, 85, 17, WS_TABSTOP
+	AUTORADIOBUTTON	"Визначений користувачем",	404, 25 , 105, 105, 17, WS_TABSTOP
+	
+	GROUPBOX		"Колір зображення",		405, 315 , 45, 125, 85
+	AUTORADIOBUTTON	"Білий"	,				406, 325 , 60, 85, 17, WS_TABSTOP | WS_GROUP
+	AUTORADIOBUTTON	"Червоний",				407, 325 , 75, 85, 17, WS_TABSTOP
+	AUTORADIOBUTTON	"Жовтий"     ,			408, 325 , 90, 85, 17, WS_TABSTOP
+	AUTORADIOBUTTON	"Визначений користувачем",	409, 325 , 105, 105, 17, WS_TABSTOP	
+END

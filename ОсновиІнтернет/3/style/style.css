@@ -1,0 +1,110 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+nav ul li {
+	list-style: none;
+	padding: 10px;
+}
+
+nav ul li ul li{
+	padding: 2px;
+}
+
+.list_1 {
+	color: #fb0;
+}
+
+.list_2 {
+	color: #800;
+}
+
+#body_3 {
+	background-color: #79e2f5;
+}
+
+.list_3 {
+	
+}
+
+#example_10 a {
+	color: #56c500;
+}
+
+
+p.ex_4 {
+	color: #0f0;
+}
+
+p.ex_5 {
+	color: #0f0;
+	background-color:#f00;
+}
+
+#body_5 {
+	background-image: url("../images/ball.jpg");
+	background-repeat: no-repeat;
+	background-position: 100% 25%;
+}
+
+p.ex_6 {
+	font-family: Arial, Candara, Century-Gothic, sans-serif
+}
+
+h1.ex_7 {
+	font-family: Arial, Candara, Century-Gothic, sans-serif;
+	font-style: normal;
+}
+h2.ex_7 {
+	font-family: Times New Roman, Georgia, serif;
+	font-style: italic;
+}
+p.ex_7 {
+	font-family: Times New Roman, Georgia, serif;
+	font-style: oblique;
+}
+
+p.ex_8 {
+	font-family: Arial, Candara, Century-Gothic, sans-serif;
+	font-style: normal;
+	font-variant: small-caps;
+}
+
+p.ex_9 {
+	font-family: Arial, Candara, Century-Gothic, sans-serif;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 600
+}
+
+
+
+h1.ex10 _{
+	font-family: Arial, Candara, Century-Gothic, sans-serif;
+	font-style: normal;
+	font-size: 30px;
+}
+
+h2.ex_10 {
+	font-family: Times New Roman, Georgia, serif;
+	font-style: italic;
+ font-size: 100pt;
+}
+
+h3.ex_10 {
+	font-family: Times New Roman, Georgia, serif;
+	font-style: italic;
+	font-size: 120%;
+}
+
+p.ex_10 {
+	font-style: italic;
+	font-weight: bold;
+	font-size: 30px;
+	font-family: arial, sans-serif;
+	letter-spacing: 2em;
+	text-align: justify;
+	text-decoration: line-through;
+	text-indent: 10%;
+}

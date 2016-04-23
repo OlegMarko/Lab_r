@@ -1,0 +1,16 @@
+#include "D:\masm32\include\resource.h" 
+ 
+500 ICON "Sharp.ICO" 
+ 
+700 DIALOG 100, 100, 300, 80 
+STYLE WS_SYSMENU | WS_MINIMIZEBOX 
+CAPTION "Моя перша нормальна графічна програма" 
+FONT 10, "MS Sans Serif" 
+BEGIN 
+  LTEXT "Введіть X:", 101,  30, 15, 100, 12 
+  LTEXT "Введіть Y:",     102,  30, 35, 100, 12 
+  EDITTEXT                     201, 110, 15, 100, 12 
+  EDITTEXT                     202, 110, 35, 100, 12 
+  EDITTEXT                     203,  25, 60, 250, 12, ES_READONLY 
+  PUSHBUTTON "OK",     301, 240, 30,  40, 12 
+END

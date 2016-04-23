@@ -1,0 +1,12 @@
+E:\lissajous curve\lissajous curve\bin\Debug\lissajous curve.exe.config
+E:\lissajous curve\lissajous curve\bin\Debug\lissajous curve.exe
+E:\lissajous curve\lissajous curve\bin\Debug\lissajous curve.pdb
+E:\lissajous curve\lissajous curve\obj\Debug\lissajous curve.csprojResolveAssemblyReference.cache
+E:\lissajous curve\lissajous curve\obj\Debug\lissajous_curve.Form1.resources
+E:\lissajous curve\lissajous curve\obj\Debug\lissajous_curve.Properties.Resources.resources
+E:\lissajous curve\lissajous curve\obj\Debug\lissajous curve.csproj.GenerateResource.Cache
+E:\lissajous curve\lissajous curve\obj\Debug\lissajous curve.exe
+E:\lissajous curve\lissajous curve\obj\Debug\lissajous curve.pdb
+F:\DATA\lissajous curve\lissajous curve\bin\Debug\lissajous curve.exe.config
+F:\DATA\lissajous curve\lissajous curve\obj\Debug\lissajous curve.exe
+F:\DATA\lissajous curve\lissajous curve\obj\Debug\lissajous curve.pdb

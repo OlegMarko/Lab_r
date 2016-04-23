@@ -1,0 +1,38 @@
+#include "D:\masm32\include\resource.h"
+
+500 ICON "MyIcon.ICO"
+501 ICON "MyIcon.ICO"
+
+601 BITMAP "MyPortret.bmp"
+604 BITMAP "MyPortret.bmp"
+602 BITMAP "MySecond.bmp"
+603 BITMAP "MyThird.bmp"
+
+700 DIALOGEX  40, 40, 200, 200
+STYLE   WS_SYSMENU | WS_MINIMIZEBOX | DS_CENTER
+CAPTION "Мої фотографії"
+FONT    10, "MS Sans Serif"
+BEGIN
+	CTEXT 		"Анкета студента", 		101, 10, 15, 200, 12 
+	LTEXT 		"Олега Марко студента", 			102, 15, 40, 100, 12 
+	LTEXT 		"Прикарпатського національного університету", 103, 15, 55, 100, 24
+	LTEXT 		"ім. В. Стефаника", 	104, 15, 75, 100, 12
+	LTEXT 		"Рік народження: 1994", 105, 15, 90, 100, 12
+	DEFPUSHBUTTON "Портретна фотографія", 301, 10, 125, 80, 12
+	PUSHBUTTON 	"Художня фотографія", 302, 10, 145,  80, 12 
+	PUSHBUTTON 	", , , ,", 303, 10, 165,  80, 12
+	PUSHBUTTON 	"Про автора", 304, 10, 185,  80, 12
+	CONTROL	"Фотографія", 801, STATIC, SS_BITMAP | WS_CHILD | WS_VISIBLE | WS_THICKFRAME, 125, 125, 150, 150
+END
+
+701 DIALOGEX  100, 200, 250, 80
+STYLE   WS_SYSMENU | WS_MINIMIZEBOX | DS_CENTER
+CAPTION "About"
+FONT    10, "MS Sans Serif"
+BEGIN
+	LTEXT 		"Автор: Олег Марко", 106, 45, 15, 100, 12 
+	LTEXT 		"Програма Version 1.0", 107, 45, 25, 100, 24
+	LTEXT 		"Copyright(c) 2015", 108, 45, 50, 100, 12
+	PUSHBUTTON 	"Ok", 305, 165, 25,  80, 12
+	CONTROL	"Фотографія", 800, STATIC, SS_BITMAP | WS_CHILD | WS_VISIBLE | WS_THICKFRAME, 5, 5, 25, 25
+END

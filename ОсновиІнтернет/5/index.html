@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<title>JS</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link href="../SR_5/style.css" rel="stylesheet" />
+		<script src="jquery.js"></script>
+		<script src="JS.js"></script>
+	</head>
+	<body>
+		<form class="form" action="" name="form1" method="post" onsubmit="onClick()">
+			<p>Тут є кнопка <input type="submit" name="Click" value="Clickни мене" /></p>
+		</form>
+		<hr />
+			<p>Тут поле для вводу 1 числа <input class="number1" type="number" name="number1" onfocus="focusInput()" /></p>
+			<p>Тут поле для вводу 2 числа <input class="number2" type="number" name="number2" onfocus="focusInput()" /></p>
+			<p>Тут поле для вводу 3 числа <input class="number3" type="number" name="number3" onfocus="focusInput()" /></p>
+			<p>Кнопка яка рахує середня 3 чисел <input id="res" type="button" name="Click" value="Clickни мене" onclick="resFunc()" /></p>
+			<p>Тут поле для вводу 3 числа <input class="res" type="text" name="res" value="result" disabled /></p>
+		<hr />
+			<p>Назва континенту<input type="text" class="contunent" /></p>
+			<p>Кнопка->>> <input  type="button" name="Click1" value="Отримати дані" onclick="getResult()" /></p>
+		<hr />
+			<h1 class="user"></h1>
+	</body>
+</html>

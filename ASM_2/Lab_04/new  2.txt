@@ -1,0 +1,20 @@
+	
+		mov ecx, 100
+		.while ecx!=600
+			xor	edx, edx
+			mov	ebx,  2
+			mov eax, ecx
+			sub	eax, 450
+			.if eax < 1
+				neg eax
+			.endif
+			div	ebx
+			mov	ebx, 430
+			sub	ebx, eax
+			add eax, 350
+			push ecx
+			add ecx, 350
+			invoke SetPixel, hDC, ecx, eax, 0000000h
+			pop ecx
+			inc ecx
+		.endw
